@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(git -C /Users/seohyun/ai-camp-week2 add README.md plan.md golden outputs CLAUDE.md .gitignore)",
+      "Bash(git -C /Users/seohyun/ai-camp-week2 status)",
+      "Bash(git -C /Users/seohyun/ai-camp-week2 commit -m ' *)",
+      "Bash(git -C /Users/seohyun/ai-camp-week2 remote add origin https://github.com/10se0hyun02/ai-camp-week2.git)",
+      "Bash(git -C /Users/seohyun/ai-camp-week2 push -u origin main)",
+      "Bash(gh auth *)",
+      "Bash(git -C /Users/seohyun/ai-camp-week2 remote set-url origin git@github.com:10se0hyun02/ai-camp-week2.git)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(ssh-keyscan github.com >> ~/.ssh/known_hosts 2>&1 && ssh -T git@github.com 2>&1 || true)",
+      "Bash(git -C /Users/seohyun/ai-camp-week2 pull origin main --allow-unrelated-histories --no-rebase --no-edit)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ],
+    "additionalDirectories": [
+      "/Users/seohyun/.ssh"
+    ]
+  }
+}
